@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, "Trebuchet MS", serif;
+    background: linear-gradient(135deg, #f7efe5 0%, #f4f7fb 100%);
+    margin: 0;
+}
+
+.hero-badge,
+.hero-title,
+.hero-copy,
+.hero-cta,
+.showcase,
+.mini-card,
+.closing {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-title,
+.hero-copy,
+.showcase,
+.closing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-cta {
+    margin-top: 20px;
+}
+
+.mini-card {
+    margin: 15px;
+}
+
+.card-wrap {
+    text-align: center;
+}
+
+.mini-card {
+    display: inline-block;
+    vertical-align: top;
+}
