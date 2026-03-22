@@ -18,7 +18,7 @@ const handlers = {
 }
 
 page.forEach((element) => {
-    // Copy classList to avoid mutation issues
+    // Copying classList to avoid mutation issues
     const classListCopy = Array.from(element.classList)
 
     classListCopy.forEach((className) => {
