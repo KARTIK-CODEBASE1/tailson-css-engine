@@ -1,3 +1,4 @@
+//Understanding the logic with this Old code.
 const page = document.querySelectorAll('*') // Selecting all elements in the DOM using the universal selector ('*')
 
 page.forEach((element) => {
