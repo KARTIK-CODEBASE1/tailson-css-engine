@@ -10,8 +10,6 @@ const handlers = {
     rd: (el, val) => el.style.borderRadius = val + 'px',
     mar: (el, val) => el.style.margin = val + 'px',
     fsize: (el, val) => el.style.fontSize = val + 'px',
-
-    // your added ones
     tcolor: (el, val) => el.style.color = val,
     fntwht: (el, val) => el.style.fontWeight = val,
     wdth: (el, val) => el.style.width = val + 'px',
