@@ -13,7 +13,8 @@ const handlers = {
     tcolor: (el, val) => el.style.color = val,
     fntwht: (el, val) => el.style.fontWeight = val,
     wdth: (el, val) => el.style.width = val + 'px',
-    shadow: (el) => el.style.boxShadow = '0 4px 10px rgba(0,0,0,0.2)'
+    shadow: (el) => el.style.boxShadow = '0 4px 10px rgba(0,0,0,0.2)',
+    hgt:(el, val) => el.style.height = val + 'px'
 }
 
 page.forEach((element) => {
